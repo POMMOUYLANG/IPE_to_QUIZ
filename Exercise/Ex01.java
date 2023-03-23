@@ -7,5 +7,6 @@ public class Ex01 {
         System.out.println("Hey U! What is your name?");
         System.out.println("My name is Sovortey");
         System.out.println("I'm ousa");
+        System.err.println("I'm seryroth");
     }
 }
