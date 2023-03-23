@@ -5,5 +5,6 @@ public class Ex01 {
         System.out.println("Hello Everyone");
         System.out.print("Hi Mouylang");
         System.out.println("Hey U! What is your name?");
+        System.out.println("My name is Sovortey");
     }
 }
