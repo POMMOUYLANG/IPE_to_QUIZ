@@ -20,34 +20,40 @@
             margin: auto;
             margin-top:10%;
         }
-        .register{
+        .menu{
             border-bottom: 3px solid pink;
             text-align:center;  
             font-size: 25px;
         }
-        .box{
-            margin:4%;
+        .register{
+            text-align: center;
+            margin-top:50px;
         }
-        input{
-            margin-left:10px;
+        .login{
+            text-align: center;
+            margin-top:50px;
+        }
+        .logout{
+            text-align: center;
+            margin-top:50px;
         }
     </style>
-    <form action="">
-        <div class="contain">
-            <div class="register">
-                <h2>REGISTER</h2>
-            </div>
-            <div class="box">
-                <label for="text-F">FirstName : </label>
-                <input type="text" name="text-F" placeholder="FirstName"><br><br>
-                <label for="text-L">LastName : </label>
-                <input type="text" name="text-L" placeholder="LastName"><br><br>
-                <label style="padding-left:25px;" for="email">Email : </label>
-                <input  type="email" name="email" placeholder="Email"><br><br>
-                <label for="PW">Password : </label>
-                <input  type="password" name="PW" placeholder="Passworddessx ">
-            </div>
-        </div>
-    </form>
+</head>
+<body>
+    <h1 align="center">Welcome To HomePage</h1>
+    <div class="contain">
+    <div class="menu">
+        <h2>Menu</h2>
+    </div>
+    <div class="register">
+        <a href=""> <h3>REGISTER</h3> </a>
+    </div>
+    <div class="login">
+        <a href=""> <h3>LOG IN</h3> </a>
+    </div>
+    <div class="logout">
+        <a href=""> <h3>LOG OUT</h3> </a>
+    </div>
+    </div>
 </body>
 </html>
