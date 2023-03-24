@@ -8,5 +8,6 @@ public class Ex01 {
         System.out.println("My name is Sovortey");
         System.out.println("I'm ousa");
         System.err.println("I'm seryroth");
+        System.err.println("Moi, Je suis Angy!!");
     }
 }
