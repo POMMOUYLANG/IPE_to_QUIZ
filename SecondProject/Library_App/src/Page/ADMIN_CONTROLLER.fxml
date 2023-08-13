@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #8F6356;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="899.0" layoutX="100.0" layoutY="124.0" startX="-100.0" stroke="#dea782" />
+      <Pane layoutX="36.0" layoutY="657.0" prefHeight="108.0" prefWidth="279.0" />
+      <Pane layoutX="46.0" layoutY="644.0" prefHeight="130.0" prefWidth="343.0" style="-fx-background-color: #ffc9a5; -fx-border-color: #ffffff;">
+         <children>
+            <Button layoutX="83.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Login" textFill="#9f715f">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="46.0" layoutY="514.0" prefHeight="130.0" prefWidth="343.0" style="-fx-background-color: #ffc9a5; -fx-border-color: #ffffff;">
+         <children>
+            <Button layoutX="82.0" layoutY="30.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Setting" textFill="#9f715f">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="46.0" layoutY="384.0" prefHeight="130.0" prefWidth="343.0" style="-fx-background-color: #ffc9a5; -fx-border-color: #ffffff;">
+         <children>
+            <Button layoutX="56.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Admin' s List" textFill="#9f715f">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Pane layoutX="46.0" layoutY="254.0" prefHeight="130.0" prefWidth="343.0" style="-fx-background-color: #ffc9a5; -fx-border-color: #ffffff;">
+         <children>
+            <Button layoutX="91.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Home" textFill="#9f715f">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Pane layoutX="431.0" layoutY="525.0" prefHeight="245.0" prefWidth="260.0" style="-fx-background-color: #ffc9a5;">
+         <children>
+            <Button layoutX="33.0" layoutY="90.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Book List " textFill="#9f715f">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="713.0" layoutY="525.0" prefHeight="245.0" prefWidth="260.0" style="-fx-background-color: #ffc9a5;">
+         <children>
+            <Button layoutX="24.0" layoutY="88.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Add Books" textFill="#9f715f">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="431.0" layoutY="252.0" prefHeight="245.0" prefWidth="260.0" style="-fx-background-color: #ffc9a5;">
+         <children>
+            <Button layoutX="3.0" layoutY="96.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Borrow Books" textFill="#9f715f">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="713.0" layoutY="252.0" prefHeight="245.0" prefWidth="260.0" style="-fx-background-color: #ffc9a5;">
+         <children>
+            <Button layoutX="7.0" layoutY="95.0" mnemonicParsing="false" style="-fx-background-color: #ffc9a5;" text="Return Books" textFill="#9f715f">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="47.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Records">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Circle fill="#ffc9a5" layoutX="959.0" layoutY="64.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffc9a5" layoutX="959.0" layoutY="75.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffc9a5" layoutX="959.0" layoutY="88.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polyline fill="#dea782" layoutX="87.0" layoutY="114.0" points="-50.0, -40.0, -4.792209625244141, -31.535493850708008, -21.763776779174805, -59.1942024230957, -49.935428619384766, -40.05897903442383" rotate="-100.3" stroke="#dea782" strokeType="INSIDE" />
+      <Button layoutX="75.0" layoutY="16.0" mnemonicParsing="false" style="-fx-background-color: #8F6356;" text="Admin Controller" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <TextField layoutX="432.0" layoutY="151.0" prefHeight="64.0" prefWidth="543.0" promptText="Quick search..." style="-fx-border-radius: 20;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: rgba(143, 99, 86, 1);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CategoriesController">
+   <children>
+      <Text layoutX="43.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-BOOK">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="354.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchtohome" style="-fx-background-color: rgba(143, 99, 86, 1);" text="HOME">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="479.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchtoaboutus" style="-fx-background-color: rgba(143, 99, 86, 1);" text="ABOUT US">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="654.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchtocategories" style="-fx-background-color: rgba(143, 99, 86, 1);" text="CATEGORIE" textFill="#dea782">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="838.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchtologin" style="-fx-background-color: rgba(143, 99, 86, 1);" text="LOG IN">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Line endX="837.0000610351562" endY="1.52587890625E-5" layoutX="163.0" layoutY="146.0" startX="-162.99998474121094" startY="1.52587890625E-5" />
+      <Button layoutX="2.0" mnemonicParsing="false" onAction="#switchtohome" style="-fx-background-color: rgba(143, 99, 86, 1);" text="&lt; BACK" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="261.0" fitWidth="155.0" layoutX="31.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/fiction.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="226.0" fitWidth="135.0" layoutX="206.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/sci-fi.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="362.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mystery.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="231.0" fitWidth="151.0" layoutX="510.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/poetry.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="234.0" fitWidth="157.0" layoutX="680.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/history.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="857.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/classic.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="68.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FICTION">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="207.0" fitWidth="145.0" layoutX="37.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/advanture.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="145.0" layoutX="202.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/crime.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="145.0" layoutX="365.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/thriller.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="207.0" fitWidth="128.0" layoutX="529.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/romance.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="683.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/horror.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="145.0" layoutX="836.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/thesis.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="243.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCI-FI">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="388.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MYSTERY">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="557.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POETRY">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="716.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HISTORY">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="870.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASSIC">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="52.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVANTURE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="241.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRIME">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="388.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THRILLER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="545.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROMANCE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="714.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HORROR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="881.0" layoutY="748.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THESIS">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

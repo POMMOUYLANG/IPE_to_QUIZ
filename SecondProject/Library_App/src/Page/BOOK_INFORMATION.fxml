@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #8F6356; -fx-border-radius: 20px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="WHITE" layoutX="472.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book's information" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="470.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="470.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author: ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="467.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Released:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="465.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button contentDisplay="CENTER" defaultButton="true" layoutX="710.0" layoutY="700.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="165.0" style="-fx-background-color: #FFC9A5; border-radius: 10px;" text="Insert" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #8F6356;" text="&lt;" textFill="#ffc9a5">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="112.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book's information">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView blendMode="SCREEN" fitHeight="537.0" fitWidth="404.0" layoutX="60.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/image/book1.jpg" />
+         </image></ImageView>
+      <Line endX="902.0" layoutX="98.0" layoutY="150.0" startX="-100.0" stroke="#dea782" />
+      <TextField layoutX="621.0" layoutY="309.0" prefHeight="48.0" prefWidth="352.0" promptText="Book_Tittle">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="619.0" layoutY="404.0" prefHeight="48.0" prefWidth="352.0" promptText="Author_name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="619.0" layoutY="502.0" prefHeight="48.0" prefWidth="352.0" promptText="DD/MM/YY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="617.0" layoutY="594.0" prefHeight="48.0" prefWidth="352.0" promptText="Fiction/Horror/Comedy...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

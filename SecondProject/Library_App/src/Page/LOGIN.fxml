@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="visibility: rgba(143, 99, 86, 1); -fx-background-color: rgba(222, 167, 130, 1);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="313.0" layoutY="133.0" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: rgba(255, 255, 255, 1);">
+         <children>
+            <Text fill="#8f6356" layoutX="99.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-BOOK">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in to your account">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="95.0" layoutY="348.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="143.0" style="-fx-background-color: rgba(205, 152, 120, 1); -fx-background-radius: 15;" text="Log in">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="8.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="&lt; BACK" textFill="#dea782">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="38.0" layoutY="431.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Forget password" textFill="#dea782">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="37.0" layoutY="461.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Create new account" textFill="#dea782">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="37.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Help" textFill="#dea782">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TextField layoutX="42.0" layoutY="194.0" prefHeight="33.0" prefWidth="266.0" promptText="Email">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="42.0" layoutY="249.0" prefHeight="33.0" prefWidth="266.0" promptText="Password">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <CheckBox layoutX="44.0" layoutY="304.0" mnemonicParsing="false" text="Remember Me?" textFill="#dea782">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

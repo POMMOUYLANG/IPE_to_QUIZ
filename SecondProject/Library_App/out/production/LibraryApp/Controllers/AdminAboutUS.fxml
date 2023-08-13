@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: rgba(143, 99, 86, 1);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AdminAboutUS">
+   <children>
+      <Text layoutX="43.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-BOOK">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="255.0" fitWidth="1001.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/image/im-about_us.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="391.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Vision ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="391.0" layoutY="603.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to provide resources andservices in a variety of media to meet the needs of individuals and">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="390.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="groups for education, information and personal development includingrecreation and leisure. ">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="389.0" layoutY="646.0" strokeType="OUTSIDE" strokeWidth="0.0" text="They have an important role in the developmentand maintenance of a democratic society by">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="390.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="giving the individual accessto a wide and varied range of knowledge, ideas and opinions.">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="203.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE MORE YOU READ, THE MORE YOU LEARN">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="Homeid" layoutX="335.0" layoutY="65.0" mnemonicParsing="false" onAction="#switchtohome" style="-fx-background-color: rgba(143, 99, 86, 1);" text="HOME">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutusid" layoutX="443.0" layoutY="64.0" mnemonicParsing="false" onAction="#switchtoaboutus" style="-fx-background-color: rgba(143, 99, 86, 1);" text="ABOUT US" textFill="#dea782">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="login" layoutX="781.0" layoutY="70.0" mnemonicParsing="false" onAction="#switchtoadmin" prefHeight="51.0" prefWidth="219.0" style="-fx-background-color: rgba(143, 99, 86, 1);" text="Admin' s Controller">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutusid1" layoutX="606.0" layoutY="63.0" mnemonicParsing="false" onAction="#switchtolistbook" style="-fx-background-color: rgba(143, 99, 86, 1);" text="LIST BOOKS">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="909.0" layoutY="33.0" mnemonicParsing="false" onAction="#switchtohomep" style="-fx-background-color: rgba(255, 249, 93, 1);" text="LOG OUT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="230.0" fitWidth="387.0" layoutX="32.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/us.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

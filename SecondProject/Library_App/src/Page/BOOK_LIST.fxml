@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #8F6356;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="1.0" mnemonicParsing="false" style="-fx-background-color: #8F6356;" text="&lt;" textFill="#ffc9a5">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="120.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fiction Books">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <Line endX="899.0" layoutX="101.0" layoutY="139.0" startX="-100.0" stroke="#dea782" strokeWidth="2.0" />
+      <TextField layoutX="688.0" layoutY="49.0" prefHeight="48.0" prefWidth="284.0" promptText="Quick Search...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text fill="WHITE" layoutX="28.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEMORY">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="26.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Angelina Aludo">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="127.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2023">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="25.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/angellinaaludo.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="192.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE LIGHT BEYOND...">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="190.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scott Whitehead">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="291.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2023">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="215.0" fitWidth="146.0" layoutX="186.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/book1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="357.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW OF THE AIR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="355.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jil Stukenberg">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="456.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2023">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="350.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/jillstukenberg.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="516.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE PAST IS RISING">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="514.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kathryn Bywaters">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="615.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2023">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="239.0" fitWidth="136.0" layoutX="513.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/kathrynbywaters.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="677.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AN ORPHAN' S WAR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="675.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Molly Green">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="776.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="674.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mollygreen.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="836.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AND THEN SHE VA...">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="834.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nick Jones">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="927.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="833.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/nickjones.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="30.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OFF PLANET">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="28.0" layoutY="755.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aileen Erin">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="129.0" layoutY="777.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="27.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/aileenerin.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="194.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RED WIDOW">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="192.0" layoutY="756.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alma Katsu">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="293.0" layoutY="778.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="191.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/almakasu.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="359.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A COURING OF RA...">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="756.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Azalea Ellis">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="458.0" layoutY="778.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="209.0" fitWidth="134.0" layoutX="352.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/azaleaellis.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="518.0" layoutY="726.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEYOND CYGNUS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="516.0" layoutY="757.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Robert Clarke">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="617.0" layoutY="779.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="515.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/RobertClarke.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="679.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXILE OF SNAKE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="677.0" layoutY="756.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Renard Scholes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="778.0" layoutY="778.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="225.0" fitWidth="136.0" layoutX="676.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Alien.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="838.0" layoutY="726.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INCURSION">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="836.0" layoutY="757.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mclauglin">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="929.0" layoutY="779.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="208.0" fitWidth="136.0" layoutX="835.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Mclaughlin.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

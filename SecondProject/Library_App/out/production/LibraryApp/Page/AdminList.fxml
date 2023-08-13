@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="800.0" minWidth="1000.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #c58875;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <Text fill="#ffc9a5" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;" wrappingWidth="24.626953125">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" style="-fx-background-color: #c58875;" text="Admin's List" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <TextField minHeight="35.0" minWidth="200.0" opacity="0.85" promptText="All Users" style="-fx-border-radius: 50px; -fx-background-radius: 10px;">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField minHeight="35.0" minWidth="200.0" opacity="0.85" promptText="Quick Search..." style="-fx-background-radius: 10px;">
+               <HBox.margin>
+                  <Insets right="-45.0" />
+               </HBox.margin>
+            </TextField>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Circle fill="WHITE" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets left="30.0" right="30.0" top="20.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   <bottom>
+      <Region prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <VBox maxHeight="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <Label style="-fx-underline: true;" text="No" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="30.0" right="71.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-underline: true;" text="Username" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="117.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label style="-fx-underline: true;" text="Email" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="236.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label style="-fx-underline: true;" text="ID" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="128.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label style="-fx-underline: true;" text="Dep" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="61.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label style="-fx-underline: true;" text="Duties" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" promptText="                                                                                            " style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="01                Se LyTheng                                                                                            e20200449                GIC                Leader">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" promptText="                " style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="02                Pom Mouylang                     mouylangpom@gmail.com                     e20201008                GIC                Member">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" promptText="                " style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="03                Seav Muy                                                                                               e20201819                GIC                Member">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" promptText="                " style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="04                Rin Singh                                                                                               e20201700                GIC                Member">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="05                Lim Techchhiv                                                                                       e20200974                 GIC                Member">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField maxHeight="100.0" mouseTransparent="true" prefHeight="85.0" style="-fx-background-color: #FFC9A5; -fx-background-radius: 5px;" text="06                Sem Jefferson                                                                                       e20190976                 GIC                Member">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <left>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Region>
+         </children>
+         <BorderPane.margin>
+            <Insets left="30.0" right="-230.0" />
+         </BorderPane.margin>
+      </HBox>
+   </left>
+   <right>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER_RIGHT">
+         <children>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+         </children>
+         <BorderPane.margin>
+            <Insets left="-230.0" right="30.0" />
+         </BorderPane.margin>
+      </HBox>
+   </right>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</BorderPane>

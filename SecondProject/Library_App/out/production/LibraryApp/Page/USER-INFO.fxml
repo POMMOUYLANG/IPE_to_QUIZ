@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #8F6356 #8F6356;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle accessibleRole="IMAGE_VIEW" fill="WHITE" layoutX="187.0" layoutY="355.0" radius="130.0" stroke="WHITE" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="370.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" AnchorPane.leftAnchor="370.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" AnchorPane.leftAnchor="370.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dep:" AnchorPane.leftAnchor="370.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book-No:" AnchorPane.leftAnchor="370.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Borrow book on date:" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="659.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return book on tate:" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Line endX="913.0" layoutX="87.0" layoutY="129.0" startX="-100.0" stroke="#dea782" strokeWidth="2.0" />
+      <Text fill="#dea782" layoutX="28.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Text>
+      <Circle fill="#ffc9a5" layoutX="936.0" layoutY="72.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffc9a5" layoutX="937.0" layoutY="84.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffc9a5" layoutX="937.0" layoutY="97.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <TextField layoutX="382.0" layoutY="539.0" prefHeight="50.0" prefWidth="350.0" promptText="DD/MM/YY" style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="382.0" layoutY="624.0" prefHeight="50.0" prefWidth="350.0" promptText="DD/MM/YY" style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="573.0" layoutY="443.0" prefHeight="50.0" prefWidth="350.0" promptText="Book-No." style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="574.0" layoutY="362.0" prefHeight="50.0" prefWidth="350.0" promptText="Department" style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="575.0" layoutY="290.0" prefHeight="50.0" prefWidth="350.0" promptText="e20xxxxxx" style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="576.0" layoutY="209.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" style="-fx-background-color: ffc9a5;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="817.0" layoutY="718.0" prefHeight="50.0" prefWidth="100.0" promptText="DD/MM/YY" style="-fx-background-color: ffc9a5;" text="Insert">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="696.0" layoutY="718.0" prefHeight="50.0" prefWidth="100.0" promptText="DD/MM/YY" style="-fx-background-color: ffc9a5;" text="Save">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="68.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: #8F6356 #8F6356;" text="User' s Information" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
